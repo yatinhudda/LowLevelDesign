@@ -8,7 +8,7 @@ public class Student {
     private double mobileNumber;
     private int studentMarks;
 
-    public static int numberOfStudents = 0;
+    private static int numberOfStudents = 0;
 
     public Student(String firstName, String lastname, int studentID, double mobileNumber, int studentMarks) {
         this.firstName = firstName;
@@ -57,5 +57,9 @@ public class Student {
 
     public int getStudentMarks() {
         return studentMarks;
+    }
+
+    public int getNumberOfStudents(){
+        return numberOfStudents;
     }
 }
