@@ -19,7 +19,7 @@ public class LearnStaticKeyword {
         Student s4 = new Student("Nishant", "bansla", 4,
                 987654321, 56);
 
-        System.out.println("Total number of students are : " + s1.getNumberOfStudents());
+        System.out.println("Total number of students are : " + Student.getNumberOfStudents());
     }
 
 

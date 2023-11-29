@@ -59,7 +59,7 @@ public class Student {
         return studentMarks;
     }
 
-    public int getNumberOfStudents(){
+    public static int getNumberOfStudents(){
         return numberOfStudents;
     }
 }
